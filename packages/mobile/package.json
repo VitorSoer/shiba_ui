@@ -1,0 +1,26 @@
+{
+  "name": "@shiba_ui/mobile",
+  "version": "1.0.0",
+  "main": "__generated__/AppEntry.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "web": "expo start --web",
+    "eject": "expo eject"
+  },
+  "dependencies": {
+    "expo": "~50.0.13",
+    "expo-status-bar": "~1.11.1",
+    "react": "18.2.0",
+    "react-native": "0.73.5",
+    "@shiba_ui/shared": "*"
+
+  },
+  "devDependencies": {
+    "@babel/core": "^7.24.0",
+    "@types/react": "^18.2.66",
+    "expo-yarn-workspaces": "^2.3.2"
+  }
+}
