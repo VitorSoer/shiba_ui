@@ -1,10 +1,14 @@
 import React from 'react';
-import { Text, View } from 'react-native';
+import { Text } from 'react-native';
+import theme from '@shiba_ui/shared/src/theme';
+import { ThemeProvider } from 'styled-components/native';
 
-export default function App() {
+const App: React.FC = () => {
   return (
-    <View>
+    <ThemeProvider theme={theme}>
       <Text>Mobile</Text>
-    </View>
+    </ThemeProvider>
   );
-}
+};
+
+export default App;

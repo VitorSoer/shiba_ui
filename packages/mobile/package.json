@@ -8,20 +8,19 @@
     "android": "expo start --android",
     "ios": "expo start --ios",
     "web": "expo start --web",
-    "eject": "expo eject",
-    "postinstall": "expo-yarn-workspaces postinstall"
+    "eject": "expo eject"
   },
   "dependencies": {
+    "@shiba_ui/shared": "*",
     "expo": "~50.0.13",
     "expo-status-bar": "~1.11.1",
     "react": "18.2.0",
-    "react-native": "0.73.5",
-    "@shiba_ui/shared": "*"
-
+    "react-native": "0.73.5"
   },
   "devDependencies": {
     "@babel/core": "^7.24.0",
     "@types/react": "^18.2.66",
+    "@types/styled-components-react-native": "^5.2.5",
     "expo-yarn-workspaces": "^2.3.2"
   }
 }

@@ -7,7 +7,7 @@ const isDevelopment = process.env.NODE_ENV !== 'production';
 module.exports = {
   mode: isDevelopment ? 'development' : 'production',
   resolve: {
-    extensions: ['.tsx', '.ts', '.js'],
+    extensions: ['.tsx', '.ts', '.js']
   },
   entry: path.resolve(__dirname, 'src', 'index.tsx'),
   module: {
@@ -16,27 +16,27 @@ module.exports = {
         test: /\.(js|ts|tsx)$/,
         exclude: /node_modules/,
         use: {
-          loader: 'babel-loader',
-        },
-      },
-    ],
+          loader: 'babel-loader'
+        }
+      }
+    ]
   },
   devServer: {
     static: {
-      directory: path.join(__dirname, 'public'),
+      directory: path.join(__dirname, 'public')
     },
     historyApiFallback: true,
     hot: true,
-    port: 4000,
+    port: 3333
   },
   output: {
     path: path.resolve(__dirname, 'dist'),
-    filename: 'bundle.js',
+    filename: 'bundle.js'
   },
   plugins: [
     new HtmlWebpackPlugin({
-      template: path.resolve(__dirname, 'public', 'index.html'),
+      template: path.resolve(__dirname, 'public', 'index.html')
     }),
-    isDevelopment && new ReactRefreshWebpackPlugin(),
-  ].filter(Boolean),
+    isDevelopment && new ReactRefreshWebpackPlugin()
+  ].filter(Boolean)
 };

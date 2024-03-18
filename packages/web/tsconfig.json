@@ -1,12 +1,11 @@
 {
   "extends": "../../tsconfig.json",
   "compilerOptions": {
-    "lib": ["esnext", "dom"],   
-    "allowJs": false,          
-    "checkJs": false,         
-    "jsx": "react"
+    "lib": ["esnext", "dom"],
+    "allowJs": false,
+    "checkJs": false,
+    "jsx": "react",
+    "types": ["@types/styled-components"]
   },
-  "include": [
-    "./src/**/*"
-  ]
+  "include": ["./src/**/*"]
 }

@@ -4,7 +4,8 @@
     "lib": ["esnext", "dom"],
     "allowJs": false,
     "checkJs": false,
-    "jsx": "react-native"
+    "jsx": "react-native",
+    "types": ["@types/styled-components-react-native"]
   },
   "include": ["./src/**/*"]
 }
