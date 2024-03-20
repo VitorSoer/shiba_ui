@@ -21,6 +21,7 @@
     "@babel/core": "^7.24.0",
     "@types/react": "^18.2.66",
     "@types/styled-components-react-native": "^5.2.5",
-    "expo-yarn-workspaces": "^2.3.2"
+    "expo-yarn-workspaces": "^2.3.2",
+    "react-native-svg": "^15.1.0"
   }
 }

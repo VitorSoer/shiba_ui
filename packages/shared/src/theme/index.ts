@@ -30,4 +30,6 @@ const theme: IThemeProps = {
 };
 
 export default theme;
+
 export type ThemeType = typeof theme;
+export type ColorKeys = keyof typeof color;
