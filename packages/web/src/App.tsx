@@ -1,11 +1,11 @@
 import React from 'react';
 import theme from '@shiba_ui/shared/src/theme';
 import { ThemeProvider } from 'styled-components';
-import { WebComponents } from './components';
+import { Sandbox } from './components/Sandbox';
 
 const App: React.FC = () => (
   <ThemeProvider theme={theme}>
-    <WebComponents />
+    <Sandbox />
   </ThemeProvider>
 );
 

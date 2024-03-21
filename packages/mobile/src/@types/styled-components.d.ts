@@ -1,6 +1,6 @@
-import 'styled-components/native';
+import 'styled-components';
 import { ThemeType } from '@shiba_ui/shared/src/theme';
 
-declare module 'styled-components/native' {
+declare module 'styled-components' {
   export interface DefaultTheme extends ThemeType {}
 }
