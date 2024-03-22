@@ -1,4 +1,4 @@
-import { ColorKeys } from '../../theme';
+import { ColorKeys } from '../../theme/values/color';
 import * as iconList from './iconList';
 
 export enum DefaultIconValues {
