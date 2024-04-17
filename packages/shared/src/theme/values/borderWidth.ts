@@ -1,4 +1,5 @@
 export const borderWidth: IBorderWidth = {
+  NA: '0px',
   XS: '0.5px',
   SM: '1px',
   MD: '1.5px',
@@ -6,6 +7,7 @@ export const borderWidth: IBorderWidth = {
 };
 
 export interface IBorderWidth {
+  NA: string;
   XS: string;
   SM: string;
   MD: string;

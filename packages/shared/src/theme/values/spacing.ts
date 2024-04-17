@@ -1,4 +1,5 @@
 export const spacing: ISpacing = {
+  NA: '0px',
   XS: '8px',
   SM: '16px',
   MD: '24px',
@@ -11,6 +12,7 @@ export const spacing: ISpacing = {
 };
 
 export interface ISpacing {
+  NA: string;
   XS: string;
   SM: string;
   MD: string;
