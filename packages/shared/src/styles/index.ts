@@ -1,6 +1,7 @@
-import { css } from 'styled-components';
 import * as T from './types';
+import { css } from 'styled-components';
 import { DefaultTheme } from 'styled-components/native';
+import { SpacingKeys } from '../theme/values/spacing';
 
 export const handleSizeStyles = ({
   height,
@@ -32,3 +33,19 @@ export const handleBorderStyles = (
   border-width: ${borderWidth && theme.border_width[borderWidth]};
   border-radius: ${borderRadius && theme.border_radius[borderRadius]};
 `;
+
+export const handleSpacingStyles = (
+  theme: DefaultTheme,
+  type: T.ISpacingTypes,
+  spacingValues: SpacingKeys[]
+) => {
+  if (!spacingValues?.length) return '';
+
+  const extractedSpacingValues = spacingValues?.map(
+    spacingValue => theme.spacing[spacingValue]
+  );
+
+  return css({
+    [type]: extractedSpacingValues.join(' ')
+  });
+};
