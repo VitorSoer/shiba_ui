@@ -1,0 +1,1 @@
+export { default } from '@shiba_ui/storybook/.storybook/mobile';
