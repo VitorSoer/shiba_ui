@@ -25,3 +25,4 @@ export const fontSize: IFontSize = {
 };
 
 export type FontSizeKeys = keyof typeof fontSize;
+export type FontSizeType = FontSizeKeys | number;

@@ -4,7 +4,7 @@ import * as iconList from './iconList';
 export enum DefaultIconValues {
   Size = '20',
   ViewBox = '0 0 20 20',
-  Color = 'BLACK_NIGHT',
+  Color = 'obsidian',
   Icon = 'ErrorIcon',
 }
 

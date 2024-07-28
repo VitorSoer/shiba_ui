@@ -15,3 +15,4 @@ export const boxShadow: IBoxShadow = {
 };
 
 export type BoxShadowKeys = keyof typeof boxShadow;
+export type BorderShadowType = BoxShadowKeys | string;

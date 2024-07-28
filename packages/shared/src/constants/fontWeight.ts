@@ -17,3 +17,4 @@ export const fontWeight: IFontWeight = {
 };
 
 export type FontWeightKeys = keyof typeof fontWeight;
+export type FontWeightType = FontWeightKeys | number;

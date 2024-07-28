@@ -15,3 +15,4 @@ export const borderRadius: IBorderRadius = {
 };
 
 export type BorderRadiusKeys = keyof typeof borderRadius;
+export type BorderRadiusType = BorderRadiusKeys | number;

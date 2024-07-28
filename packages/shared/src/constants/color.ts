@@ -37,3 +37,4 @@ export const color: IColor = {
 };
 
 export type ColorKeys = keyof typeof color;
+export type ColorType = ColorKeys | string;

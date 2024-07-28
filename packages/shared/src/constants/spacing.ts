@@ -25,3 +25,4 @@ export const spacing: ISpacing = {
 };
 
 export type SpacingKeys = keyof typeof spacing;
+export type SpacingType = SpacingKeys | number;

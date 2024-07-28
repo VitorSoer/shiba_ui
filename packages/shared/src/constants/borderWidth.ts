@@ -15,3 +15,4 @@ export const borderWidth: IBorderWidth = {
 };
 
 export type BorderWidthKeys = keyof typeof borderWidth;
+export type BorderWidthType = BorderWidthKeys | number;

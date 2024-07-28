@@ -15,3 +15,4 @@ export const elevation: IElevation = {
 };
 
 export type ElevationKeys = keyof typeof elevation;
+export type ElevationType = ElevationKeys | string;
