@@ -4,11 +4,11 @@
   "main": "__generated__/AppEntry.js",
   "license": "MIT",
   "dependencies": {
+    "@shiba_ui/shared": "*",
+    "@shiba_ui/storybook": "*",
     "expo": "^51.0.21",
     "react": "^18.2.0",
-    "react-native": "^0.74.3",
-    "@shiba_ui/shared": "*",
-    "@shiba_ui/storybook": "*"
+    "react-native": "^0.74.3"
   },
   "devDependencies": {
     "@babel/core": "^7.24.9",

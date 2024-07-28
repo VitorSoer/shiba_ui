@@ -4,9 +4,9 @@
   "main": "index.js",
   "license": "MIT",
   "dependencies": {
-    "react": "^18.2.0",
     "@shiba_ui/shared": "*",
-    "@shiba_ui/storybook": "*"
+    "@shiba_ui/storybook": "*",
+    "react": "^18.2.0"
   },
   "devDependencies": {
     "@types/react": "^18.2.79"
