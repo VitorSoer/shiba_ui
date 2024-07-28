@@ -1,27 +1,27 @@
 export interface ISpacing {
-  NA: string;
-  XS: string;
-  SM: string;
-  MD: string;
-  LG: string;
-  XL: string;
-  '2X': string;
-  '3X': string;
-  '4X': string;
-  '5X': string;
+  rm: string;
+  xs: string;
+  sm: string;
+  md: string;
+  lg: string;
+  xl: string;
+  '2x': string;
+  '3x': string;
+  '4x': string;
+  '5x': string;
 }
 
 export const spacing: ISpacing = {
-  NA: '0px',
-  XS: '8px',
-  SM: '16px',
-  MD: '24px',
-  LG: '32px',
-  XL: '40px',
-  '2X': '48px',
-  '3X': '56px',
-  '4X': '64px',
-  '5X': '72px',
+  rm: '0px',
+  xs: '8px',
+  sm: '16px',
+  md: '24px',
+  lg: '32px',
+  xl: '40px',
+  '2x': '48px',
+  '3x': '56px',
+  '4x': '64px',
+  '5x': '72px',
 };
 
 export type SpacingKeys = keyof typeof spacing;

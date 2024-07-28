@@ -1,39 +1,39 @@
 export interface IColor {
-  BLACK_NIGHT: string;
-  DARK_GRAY: string;
-  MEDIUM_GRAY: string;
-  NORMAL_GRAY: string;
-  LIGHT_GRAY: string;
-  SNOW_WHITE: string;
-  GLACIAL_WHITE: string;
-  PURE_WHITE: string;
-  ROYAL_PURPLE: string;
-  BLUSH_PINK: string;
-  EMERALD_GREEN: string;
-  SKY_BLUE: string;
-  MUSTARD_YELLOW: string;
-  SUNSET_ORANGE: string;
-  CRIMSON_RED: string;
-  CYAN_BLUE: string;
+  obsidian: string;
+  charcoal: string;
+  graphite: string;
+  steel: string;
+  silver: string;
+  quartz: string;
+  porcelain: string;
+  cotton: string;
+  violet: string;
+  coral: string;
+  emerald: string;
+  aqua: string;
+  sunflower: string;
+  tangerine: string;
+  crimson: string;
+  azure: string;
 }
 
 export const color: IColor = {
-  BLACK_NIGHT: '#121212',
-  DARK_GRAY: '#181818',
-  MEDIUM_GRAY: '#404040',
-  NORMAL_GRAY: '#9C9C9C',
-  LIGHT_GRAY: '#C5C5C5',
-  SNOW_WHITE: '#E4E4E4',
-  GLACIAL_WHITE: '#F5F5F5',
-  PURE_WHITE: '#FFFFFF',
-  ROYAL_PURPLE: '#A15FFF',
-  BLUSH_PINK: '#EF5975',
-  EMERALD_GREEN: '#0EDF59',
-  SKY_BLUE: '#1ACFF0',
-  MUSTARD_YELLOW: '#EAC20C',
-  SUNSET_ORANGE: '#F88705',
-  CRIMSON_RED: '#C6393E',
-  CYAN_BLUE: '#3676AA',
+  obsidian: '#121212',
+  charcoal: '#181818',
+  graphite: '#404040',
+  steel: '#9C9C9C',
+  silver: '#C5C5C5',
+  quartz: '#E4E4E4',
+  porcelain: '#F5F5F5',
+  cotton: '#FFFFFF',
+  violet: '#9149F9',
+  coral: '#EF5975',
+  emerald: '#00C948',
+  aqua: '#00BEE0',
+  sunflower: '#F2C703',
+  tangerine: '#F88400',
+  crimson: '#D02329',
+  azure: '#3676AA',
 };
 
 export type ColorKeys = keyof typeof color;

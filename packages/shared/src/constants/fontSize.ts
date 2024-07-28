@@ -1,27 +1,27 @@
 export interface IFontSize {
-  XS: string;
-  SM: string;
-  MD: string;
-  LG: string;
-  XL: string;
-  '2X': string;
-  '3X': string;
-  '4X': string;
-  '5X': string;
-  '6X': string;
+  xs: string;
+  sm: string;
+  md: string;
+  lg: string;
+  xl: string;
+  '2x': string;
+  '3x': string;
+  '4x': string;
+  '5x': string;
+  '6x': string;
 }
 
 export const fontSize: IFontSize = {
-  XS: '10px',
-  SM: '12px',
-  MD: '14px',
-  LG: '16px',
-  XL: '18px',
-  '2X': '20px',
-  '3X': '24px',
-  '4X': '28px',
-  '5X': '32px',
-  '6X': '36px',
+  xs: '10px',
+  sm: '12px',
+  md: '14px',
+  lg: '16px',
+  xl: '18px',
+  '2x': '20px',
+  '3x': '24px',
+  '4x': '28px',
+  '5x': '32px',
+  '6x': '36px',
 };
 
 export type FontSizeKeys = keyof typeof fontSize;

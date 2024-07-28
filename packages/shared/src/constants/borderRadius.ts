@@ -1,17 +1,17 @@
 export interface IBorderRadius {
-  NA: string;
-  XS: string;
-  SM: string;
-  MD: string;
-  LG: string;
+  rm: string;
+  xs: string;
+  sm: string;
+  md: string;
+  lg: string;
 }
 
 export const borderRadius: IBorderRadius = {
-  NA: '0px',
-  XS: '4px',
-  SM: '8px',
-  MD: '16px',
-  LG: '32px',
+  rm: '0px',
+  xs: '4px',
+  sm: '8px',
+  md: '16px',
+  lg: '32px',
 };
 
 export type BorderRadiusKeys = keyof typeof borderRadius;

@@ -1,19 +1,19 @@
 export interface IFontWeight {
-  LIGHT: number;
-  REGULAR: number;
-  MEDIUM: number;
-  STRONG: number;
-  BOLD: number;
-  HEAVY: number;
+  light: number;
+  regular: number;
+  medium: number;
+  strong: number;
+  bold: number;
+  heavy: number;
 }
 
 export const fontWeight: IFontWeight = {
-  LIGHT: 300,
-  REGULAR: 400,
-  MEDIUM: 500,
-  STRONG: 600,
-  BOLD: 700,
-  HEAVY: 800,
+  light: 300,
+  regular: 400,
+  medium: 500,
+  strong: 600,
+  bold: 700,
+  heavy: 800,
 };
 
 export type FontWeightKeys = keyof typeof fontWeight;
