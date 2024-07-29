@@ -1,12 +1,6 @@
 module.exports = {
-  extends: [
-    'plugin:react/recommended',
-    'standard',
-    'plugin:@typescript-eslint/recommended',
-    'prettier/@typescript-eslint',
-    'prettier/standard',
-    'prettier/react',
-  ],
+  env: { node: true },
+  extends: ['eslint:recommended', 'plugin:@typescript-eslint/recommended'],
   parser: '@typescript-eslint/parser',
   parserOptions: {
     ecmaFeatures: {
@@ -27,4 +21,4 @@ module.exports = {
       version: 'detect',
     },
   },
-}
+};
