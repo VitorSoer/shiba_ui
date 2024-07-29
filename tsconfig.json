@@ -12,5 +12,4 @@
       "@types/styled-components-react-native"
     ]
   },
-  "include": ["./styled-components.d.ts"]
 }
