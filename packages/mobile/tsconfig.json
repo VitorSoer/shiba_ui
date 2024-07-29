@@ -6,5 +6,5 @@
     "jsx": "react-native",
     "lib": ["esnext", "dom"]
   },
-  "include": ["./src/**/*"]
+  "include": ["./src/**/*", "./src/theme/styled-components.d.ts"]
 }
