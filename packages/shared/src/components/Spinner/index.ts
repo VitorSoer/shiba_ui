@@ -3,33 +3,28 @@ import { SizeType } from '../../constants/size';
 
 export interface ISpinner {
   size?: SizeType;
-  innerColor?: ColorType;
-  outerColor?: ColorType;
+  color?: ColorType;
 }
 
-export const getSpinnerSize = (size: string = 'md') => {
+export const getSpinnerSize = (size: SizeType = 'md', isMobile?: boolean) => {
   const sizes = {
-    xs: `
-      width: 12px;
-      height: 12px;
-      border-width: 4px;
-    `,
-    sm: `
-      width: 18px;
-      height: 18px;
-      border-width: 6px;
-    `,
-    md: `
-      width: 24px;
-      height: 24px;
-      border-width: 8px;
-    `,
-    lg: `
-      width: 30px;
-      height: 30px;
-      border-width: 10px;
-    `,
+    xs: { size_one: 10, size_two: 20 },
+    sm: { size_one: 20, size_two: 30 },
+    md: { size_one: 30, size_two: 40 },
+    lg: { size_one: 40, size_two: 50 },
   };
 
-  return sizes[size] || sizes.md;
+  const isNumber = typeof size === 'number';
+  const selectedSize = sizes[size] || sizes.md;
+
+  const mobileSize = isNumber ? size : selectedSize?.size_two;
+  const browserSize = isNumber ? size : selectedSize?.size_one;
+
+  if (isMobile) return mobileSize;
+
+  return `
+    width: ${browserSize}px;
+    height: ${browserSize}px;
+    border-width: ${browserSize / 5}px;
+  `;
 };

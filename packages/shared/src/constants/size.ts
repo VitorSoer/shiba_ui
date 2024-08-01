@@ -1,1 +1,2 @@
-export type SizeType = 'rm' | 'xs' | 'sm' | 'md' | 'lg';
+export type SizeOptions = 'rm' | 'xs' | 'sm' | 'md' | 'lg';
+export type SizeType = SizeOptions | number;

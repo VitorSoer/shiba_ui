@@ -9,13 +9,14 @@ const spinAnimation = keyframes`
 `;
 
 export const SpinnerWrapper = styled.div<ISpinner>`
-  ${({ theme, outerColor, innerColor, size }) => css`
+  ${({ theme, color, size }) => css`
     ${getSpinnerSize(size)}
 
     border-radius: 50%;
     border-style: solid;
-    border-color: ${getColorValue(theme, outerColor, 'quartz')};
-    border-top-color: ${getColorValue(theme, innerColor, 'violet')};
+    border-color: transparent;
+    border-top-color: ${getColorValue(theme, color, 'violet')};
+    border-right-color: ${getColorValue(theme, color, 'violet')};
 
     animation: ${spinAnimation} 1s linear infinite;
   `}
