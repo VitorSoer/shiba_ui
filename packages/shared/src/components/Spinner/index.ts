@@ -7,7 +7,7 @@ export interface ISpinner {
   outerColor?: ColorType;
 }
 
-export const getSpinnerSize = (size: string = 'lg') => {
+export const getSpinnerSize = (size: string = 'md') => {
   const sizes = {
     xs: `
       width: 12px;
