@@ -8,8 +8,9 @@
     "skipLibCheck": true,
     "forceConsistentCasingInFileNames": true,
     "types": [
+      "@types/jest",
       "@types/styled-components",
       "@types/styled-components-react-native"
     ]
-  },
+  }
 }
