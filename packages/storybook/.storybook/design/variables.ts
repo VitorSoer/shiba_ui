@@ -1,5 +1,8 @@
 import { color } from '@shiba_ui/shared/src/constants/color';
 
+export const sampleText =
+  'Shiba Inus have “brush-like” fur and a perpetually judgmental look.';
+
 export const backgrounds = [
   {
     name: 'cotton',

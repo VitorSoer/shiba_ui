@@ -1,0 +1,27 @@
+import { sampleText } from './variables';
+import { Meta, Typeset } from '@storybook/blocks';
+import { fontSize } from '@shiba_ui/shared/src/constants/fontSize';
+
+<Meta title="System/Typography" />
+
+# Typography
+
+- **Fonts:** Nunito Sans, Poppins, Inter, Helvetica, Times New Roman.
+- **Sizes:** xs (10px), sm (12px), md (14px), lg (16px), xl (18px), 2x (20px), 3x (24px), 4x (28px), 5x (32px), 6x (36px).
+- **Weights:** light (300), regular (400), medium (500), strong (600), bold (700), heavy (800).
+
+<Typeset
+  fontSizes={[
+    fontSize.xs,
+    fontSize.sm,
+    fontSize.md,
+    fontSize.lg,
+    fontSize.xl,
+    fontSize['2x'],
+    fontSize['3x'],
+    fontSize['4x'],
+    fontSize['5x'],
+    fontSize['6x'],
+  ]}
+  sampleText={sampleText}
+/>

@@ -5,7 +5,7 @@ import { color } from '@shiba_ui/shared/src/constants/color';
 addons.setConfig({
   theme: create({
     brandTitle: 'Shiba UI',
-    brandImage: require('./assets/logo.webp'),
+    brandImage: require('../assets/logo.webp'),
     brandUrl: 'https://github.com/VitorSoer/shiba_ui',
 
     base: 'dark',

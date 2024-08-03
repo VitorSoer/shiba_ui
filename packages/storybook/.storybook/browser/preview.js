@@ -1,4 +1,4 @@
-import { viewports, backgrounds } from './constants';
+import { viewports, backgrounds } from '../design/variables';
 
 /** @type { import('@storybook/react').Preview } */
 
