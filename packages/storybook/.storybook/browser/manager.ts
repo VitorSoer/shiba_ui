@@ -11,17 +11,17 @@ addons.setConfig({
     base: 'dark',
     appBg: color.obsidian,
     textColor: color.cotton,
-    appBorderColor: color.cotton,
+    appBorderColor: color.graphite,
     appBorderRadius: 4,
 
     barBg: color.obsidian,
     barTextColor: color.cotton,
-    barSelectedColor: color.steel,
-    barHoverColor: color.steel,
+    barSelectedColor: color.cotton,
+    barHoverColor: color.graphite,
 
     inputBg: color.obsidian,
-    inputBorder: color.steel,
-    inputTextColor: color.steel,
+    inputBorder: color.graphite,
+    inputTextColor: color.cotton,
     inputBorderRadius: 4,
   }),
 });
