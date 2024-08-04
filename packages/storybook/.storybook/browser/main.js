@@ -8,7 +8,7 @@ function getAbsolutePath(value) {
 
 const config = {
   stories: [
-    '../**/*.mdx',
+    '../utils/**/*.mdx',
     '../../../browser/src/components/**/*.stories.@(js|jsx|mjs|ts|tsx)',
   ],
   addons: [
